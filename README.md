@@ -25,15 +25,15 @@ You can install the required libraries using pip:
 pip install numpy opencv-python matplotlib
 ```
 # Steps to set up the project
-1) Clone the repository:
+1. Clone the repository:
 ```bash
 git clone https://github.com/jmo-199/Computer-Vision-Assigment1.git
 ```
-2) Navigate into the project repository:
+2. Navigate into the project repository:
 ```bash
 cd Computer-Vision-Assignment1
 ```
-3) Install the dependencies:
+3. Install the dependencies:
 ```bash
 pip install -r requirements.txt
 ```
@@ -286,4 +286,29 @@ plt.axis('off')
 
 plt.show()
 ```
+# Features
+- Min-max normalization: Adjust pixel values between 0 and 1
+- Down-sampling & Up-sampling: Resize the image by reducing and increasing pixel values.
+- Gaussian Smoothing: Apply Gaussian filters with different kernel sizes and sigma values.
+- Median Filtering: Reduce noise by applying a median filter.
+- Noise Handling: Apply filters to remove noise from images.
+- Sobel Filtering: Detect edges in the image using the Sobel operator.
 
+# Contributing
+1. Fork the project
+2. create a new branch for your feature:
+   ```bash
+   git checkout -b bugfix/fix-image-loading
+   ```
+3. Commit changes: 
+   ```bash
+   git add .
+   ```
+4. Push to the branch:
+   ```bash
+   git commit -m "Fix image loading issue when handling corrupted files"
+   ```
+# Acknowledgments
+- `OpenCV` for image processing libraries.
+- `NumPy` for numerical operations.
+- `Matplotlib` for image visualization.
